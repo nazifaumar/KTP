@@ -22,7 +22,7 @@ class KtpController extends Controller
         }else{
             return formatAPI::createAPI(400,'gagal');
         }
-    }
+    }   
 
     public function store(Request $request)
     {
